@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Coverage
+coverage/
+*.lcov
+
+# Build output
+build/
+dist/
+.tmp/
+.tmp/**
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Cache
+.cache/
+.fusebox/
+nyc_output/
+
+# Plesk
+# Temporary files that may appear during deployments
+npm-cache/
+
+# Misc
+*.tgz
