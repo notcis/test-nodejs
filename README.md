@@ -57,3 +57,10 @@ Plesk will bind the app to its internal port and proxy requests. Ensure your rou
 - Uses ESM (`type: module`), Node >= 18.
 - Add more routes by creating files in `controllers` and wiring them in `routes`.
 - For security headers, consider adding `helmet`.
+
+## Fix if "type": "module"
+
+starting your app through a **CommonJS wrapper** that dynamically imports your ESM code.
+
+- Add a CommonJS startup file and point Plesk to it **"server.cjs"**.
+- Startup file: src/server.cjs
